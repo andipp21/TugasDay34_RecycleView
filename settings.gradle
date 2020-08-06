@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Tugas Day 34_ Recycle View"
