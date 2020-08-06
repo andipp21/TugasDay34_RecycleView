@@ -29,10 +29,10 @@ class AppAdapter(val listApp: ArrayList<Aplikasi>): RecyclerView.Adapter<AppAdap
 
         Glide.with(holder.itemView.context)
             .load(listApp[position].logo)
-            .transform(RoundedCorners(8))
+            .transform(RoundedCorners(64))
             .into(img)
 
         holder.itemView.tvNamaAPP.setText(listApp[position].nama)
-        holder.itemView.tvSizeAPP.setText(listApp[position].size.toString())
+        holder.itemView.tvSizeAPP.setText("${listApp[position].size.toString()} MB")
     }
 }

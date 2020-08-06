@@ -36,6 +36,7 @@
                 android:layout_height="wrap_content"/>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
                 android:id="@+id/gameRecycleView"
                 app:layout_constraintTop_toBottomOf="@id/tvGame"
                 android:layout_width="match_parent"
@@ -63,6 +64,7 @@
                 android:layout_height="wrap_content"/>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
                 android:id="@+id/perpesananRecycleView"
                 app:layout_constraintTop_toBottomOf="@id/tvperpesanan"
                 android:layout_width="match_parent"
@@ -90,6 +92,7 @@
                 android:layout_height="wrap_content"/>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
                 android:id="@+id/mediaRecycleView"
                 app:layout_constraintTop_toBottomOf="@id/tvMedia"
                 android:layout_width="match_parent"
@@ -117,6 +120,7 @@
                 android:layout_height="wrap_content"/>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
                 android:id="@+id/financeRecycleView"
                 app:layout_constraintTop_toBottomOf="@id/tvFinance"
                 android:layout_width="match_parent"
@@ -144,6 +148,7 @@
                 android:layout_height="wrap_content"/>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
                 android:id="@+id/perjalananRecycleView"
                 app:layout_constraintTop_toBottomOf="@id/tvPerjalanan"
                 android:layout_width="match_parent"
